@@ -10,6 +10,20 @@ namespace cis237InClass2
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine("Enter 1 for factorial or 2 for Towers of Hanoi");
+            string userInput = Console.ReadLine();
+
+            if (userInput == "1")
+            {//Do Factorial
+                //The Dawn way
+                Factorial factorial = new Factorial();
+            }
+            else
+            {
+                //Do Towers of Hanoi
+            }
+
         }
     }
 }
