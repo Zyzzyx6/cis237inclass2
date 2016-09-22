@@ -22,6 +22,9 @@ namespace cis237InClass2
             else
             {
                 //Do Towers of Hanoi
+                //The Dawn Way Again!!!
+                TowersOfHanoi tower = new TowersOfHanoi();
+
             }
 
         }
